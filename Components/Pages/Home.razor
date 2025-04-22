@@ -1,0 +1,44 @@
+﻿@page "/"
+@using Microsoft.Maui.Controls
+@using Microsoft.Maui.Controls.Compatibility
+@using ProdutividadeApp.Controls
+
+@inject NavigationManager Nav
+
+<div class="home-container">
+    <h1 class="home-title">🌟 Bem-vindo ao ProductivityApp 🌟</h1>
+    <p class="home-subtitle">Organiza o teu bem-estar diário com estilo e simplicidade!</p>
+
+    <div class="home-grid">
+        <a href="/mood" class="home-card">
+            <span class="emoji">😊</span>
+            <h3>Registar Humor</h3>
+            <p>Escolhe o teu estado de espírito e regista como te sentes.</p>
+        </a>
+
+        <a href="/produtividade" class="home-card">
+            <span class="emoji">⚡</span>
+            <h3>Produtividade</h3>
+            <p>Após registares como te sentes, avalia a tua produtividade diária com um simples deslize.</p>
+        </a>
+
+        <a href="/historico" class="home-card">
+            <span class="emoji">📜</span>
+            <h3>Histórico</h3>
+            <p>Consulta todos os teus registos anteriores de humor e produtividade.</p>
+        </a>
+
+        <a href="/charts" class="home-card">
+            <span class="emoji">📊</span>
+            <h3>Gráficos</h3>
+            <p>Visualiza a tua evolução semanal de forma clara e intuitiva.</p>
+        </a>
+    </div>
+</div>
+
+@code {
+    protected override void OnInitialized()
+    {
+        CheckLogin.Verificar(Nav);
+    }
+}
