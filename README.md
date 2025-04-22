@@ -19,15 +19,19 @@ A app está a ser desenvolvida em .NET MAUI BLAZOR HYBRID
 ### Workloads no visual studio installer:
 
 ASP.NET and web development
+
 .NET Multi-platform App UI development
+
 .NET desktop deveolpment
 
 ### Individual components:
 
 .NET 9.0 Runtime
+
 .NET SDK - for Android, iOS, Mac Catalyst
 
 ### Nugget package adicionais:
 
 QuestPDF
+
 Sqlite-net-pcl
