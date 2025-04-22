@@ -10,3 +10,5 @@ Assim, surge a necessidade de uma aplicação simples, interativa e acessível q
 Para esse efeito, concebi a aplicação para fornecer uma solução prática e intuitiva, permitindo que os utilizadores registem diariamente o seu estado emocional e produtividade de forma rápida e acessível. A aplicação disponibiliza uma interface simples, onde os utilizadores selecionam um emoji representativo do seu estado de espírito e atribuem uma percentagem à sua produtividade. Além disso, os dados são armazenados e apresentados em gráficos semanais interativos, facilitando a análise de padrões e tendências. 
 
 Esta app de momento encontra-se em desenvolvimento continuo, com introdução de novas variáveis, funcionalidades etc.
+
+A app está a ser desenvolvida em .NET MAUI BLAZOR HYBRID
