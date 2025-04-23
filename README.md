@@ -1,3 +1,44 @@
+# Productivity and Emotion Management
+
+## ProdutivityApp (name subject to change)
+
+
+Nowadays, many people struggle to keep track of their mood and productivity over time. The lack of a structured log makes it difficult to identify patterns, understand the impact of emotions on productivity, and make improvements to daily routines.
+
+Although there are several productivity and mood tracking apps available, many are complex, unintuitive, or do not offer an integrated view of mood and performance. Moreover, the absence of visual reports can make data analysis slow and ineffective.
+
+Therefore, there is a need for a simple, interactive, and accessible app that allows users to easily record their mood and productivity, visualize trends over time, and make informed decisions to improve their well-being and daily efficiency.
+
+To meet this need, I designed the app to provide a practical and intuitive solution, allowing users to quickly and easily record their emotional state and productivity each day. The app features a simple interface where users select an emoji that represents their mood and assign a percentage to their productivity. Additionally, the data is stored and displayed in interactive weekly charts, making it easier to analyze patterns and trends. Users can also export their data to a PDF file.
+
+This app is currently under continuous development, with the introduction of new variables, features, and improvements.
+
+The app is being developed using .NET MAUI Blazor Hybrid.
+
+# Required Tools to Compile the Code in Visual Studio
+
+### Workloads on visual studio installer:
+
+ASP.NET and web development
+
+.NET Multi-platform App UI development
+
+.NET desktop deveolpment
+
+### Individual components:
+
+.NET 9.0 Runtime
+
+.NET SDK - for Android, iOS, Mac Catalyst
+
+### Nugget package adicionais:
+
+QuestPDF
+
+Sqlite-net-pcl
+
+---
+
 # Gestão de produtividade e emoções
 ## ProdutivityApp (nome sujeito a alteração)
 
@@ -40,44 +81,5 @@ Sqlite-net-pcl
 
 
 ----
-
-# Productivity and Emotion Management
-
-## ProdutivityApp (name subject to change)
-
-
-Nowadays, many people struggle to keep track of their mood and productivity over time. The lack of a structured log makes it difficult to identify patterns, understand the impact of emotions on productivity, and make improvements to daily routines.
-
-Although there are several productivity and mood tracking apps available, many are complex, unintuitive, or do not offer an integrated view of mood and performance. Moreover, the absence of visual reports can make data analysis slow and ineffective.
-
-Therefore, there is a need for a simple, interactive, and accessible app that allows users to easily record their mood and productivity, visualize trends over time, and make informed decisions to improve their well-being and daily efficiency.
-
-To meet this need, I designed the app to provide a practical and intuitive solution, allowing users to quickly and easily record their emotional state and productivity each day. The app features a simple interface where users select an emoji that represents their mood and assign a percentage to their productivity. Additionally, the data is stored and displayed in interactive weekly charts, making it easier to analyze patterns and trends. Users can also export their data to a PDF file.
-
-This app is currently under continuous development, with the introduction of new variables, features, and improvements.
-
-The app is being developed using .NET MAUI Blazor Hybrid.
-
-# Required Tools to Compile the Code in Visual Studio
-
-### Workloads on visual studio installer:
-
-ASP.NET and web development
-
-.NET Multi-platform App UI development
-
-.NET desktop deveolpment
-
-### Individual components:
-
-.NET 9.0 Runtime
-
-.NET SDK - for Android, iOS, Mac Catalyst
-
-### Nugget package adicionais:
-
-QuestPDF
-
-Sqlite-net-pcl
 
 
